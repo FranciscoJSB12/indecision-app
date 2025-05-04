@@ -1,10 +1,7 @@
 <template>
-  <h1>Mi primera app</h1>
-  <hr />
-  <MyCounter :value="1" />
+  <IndecisionView />
 </template>
 
 <script setup lang="ts">
-import MyCounter from './components/MyCounter.vue';
-
+import IndecisionView from './views/IndecisionView.vue';
 </script>
